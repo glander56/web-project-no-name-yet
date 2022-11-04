@@ -17,7 +17,7 @@ html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,ifr
     box-sizing: border-box;
   } 
   *, *:before, *:after { 
-    box-sizing: inherit;
+    box-sizing: border-box;
   }
   img,embed,iframe,object,audio,video {
     height: auto;  
