@@ -34,3 +34,6 @@ html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,ifr
     padding: 0;  
     text-align: left;
   }
+  a{
+    text-decoration: none;
+  }
