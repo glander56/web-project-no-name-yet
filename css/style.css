@@ -24,9 +24,6 @@ body {
     padding: 0 15px;
     height: 50px;
 
-    font-size: 18px;
-    font-weight: 500;
-    color: #FFFF;
     background: #FFB5A7;
     border-radius: 4px;
 
@@ -34,7 +31,17 @@ body {
     align-items: center;
     justify-content: center;
 
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+
     transition: background-color .2s ease;
+}
+
+.btn__name {
+    font-size: 18px;
+    font-weight: 550;
+    line-height: 27px;
 }
 
 .btn:hover {
@@ -80,6 +87,14 @@ body {
     line-height: 45px;
     letter-spacing: 0.15em;
     color: #000000;
+}
+
+.white-text {
+    color: #FFFF;
+}
+
+.uppercase-text {
+    text-transform: uppercase;
 }
 
 
@@ -453,7 +468,7 @@ body {
 }
 
 .create__desc-title {
-    font-size: 128px;
+    font-size: 118px;
     font-weight: 900;
     line-height: 222px;
     text-transform: uppercase;
@@ -470,7 +485,8 @@ body {
 .create__item {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
     padding: 30px;
-    height: 150px;
+    min-height: 150px;
+    height: 100%;
 }
 
 .create__item-title {
@@ -489,3 +505,142 @@ body {
     line-height: 27px;
     color: #B7B7B7;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact {
+    padding: 100px 0;
+    background-color: #171616;
+}
+
+.contact__title {
+    margin-bottom: 45px;
+    color: #FFFF;
+}
+
+
+.contact__form {
+    width: 440px;
+}
+
+.form__row {
+    display: flex;
+    margin: 0 -20px;
+}
+
+.form__group {
+    margin-bottom: 30px;
+
+    flex: 1;
+    padding: 0 20px;
+    position: relative;
+}
+
+.input {
+    padding: 9px 0;
+    width: 100%;
+
+    color: #FFF;
+    font-size: 15px;
+    font-family: inherit;
+
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #FFF;
+    background: transparent;
+}
+
+.input:focus+.label {
+    transform: translateY(-15px);
+    font-size: 12px;
+}
+
+.input:not(:placeholder-shown)+.label {
+    transform: translateY(-15px);
+    font-size: 12px;
+}
+
+.label {
+    letter-spacing: 0.15em;
+    color: #FFF;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    pointer-events: none;
+    transition: all 0.5s ease;
+}
+
+.textarea {
+    padding: 9px 0;
+    width: 100%;
+    min-height: 130px;
+    resize: vertical;
+
+    color: #FFF;
+    font-size: 15px;
+    font-family: inherit;
+
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #FFF;
+    background: transparent;
+}
+
+.textarea:focus+.label {
+    transform: translateY(-15px);
+    font-size: 12px;
+}
+
+.textarea:not(:placeholder-shown)+.label {
+    transform: translateY(-15px);
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+.footer {
+    padding: 60px 0;
+}
+.footer__wrapper {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.footer__content-autor {
+}
+.footer__content-social {
+    display: flex;
+    justify-content: ce;
+    align-items: center;
+}
+.social-link {
+    margin-right: 20px;
+}
+.social-link:last-child {
+    margin-right: 0;
+}
+.social-link__img {
+    min-height: 20px;
+}
+
+
+
+
