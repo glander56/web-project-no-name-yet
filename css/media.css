@@ -1,0 +1,11 @@
+@media(max-width: 1260px) {
+    .intro__content{
+        height: 460px;
+    }
+    .info{
+        transform: translateY(-15%);
+    }
+    .info__item{
+        height: 100%;
+    }
+}
